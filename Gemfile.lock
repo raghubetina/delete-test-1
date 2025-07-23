@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/raghubetina/rename.git
+  revision: 076664d65e7b2baa75bc1acfe134b8282fb1128f
+  branch: rails-8-compatibility
+  specs:
+    rename (1.1.0)
+      activesupport
+      rails (>= 3.0.0)
+      thor (>= 0.19.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -611,6 +621,7 @@ DEPENDENCIES
   rails-erd
   rails_db (~> 2.5.0)
   ransack
+  rename!
   rollbar
   rspec-html-matchers
   rspec-rails (~> 7.1.1)

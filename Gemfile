@@ -54,6 +54,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "rename", github: "raghubetina/rename", branch: "rails-8-compatibility", require: false
 end
 
 # Additional gems for AppDev
